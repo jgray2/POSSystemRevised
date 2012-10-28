@@ -1,8 +1,6 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package possystem;
+
 
 /**
  *
@@ -14,6 +12,8 @@ public class CashRegister {
         new Product("B205", "Men's Dress Shirt", 35.50, new XmasDiscountStrategy()),
         new Product("C222", "Women's Socks", 9.50, new NoDiscountStrategy())
     };
+  
+    
     Customer[] customers = {
         new Customer("C01", "Bob Smith"),
         new Customer("C02", "Jim Jones"),

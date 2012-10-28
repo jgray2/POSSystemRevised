@@ -9,7 +9,7 @@ package possystem;
  * @author Jenni
  */
 public class Customer {
-     private String customerID;
+    private String customerID;
     private String customerName;
 
     public Customer(String customerID, String customerName) {
